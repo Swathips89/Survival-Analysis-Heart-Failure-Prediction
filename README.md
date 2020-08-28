@@ -10,10 +10,11 @@ Age, serum sodium, serum creatinine, gender, smoking, Blood Pressure (BP), Eject
 # Output
 # Logistic regression - Accuracy : 78.89%
 # Cox model output –
-Coefficient concerning age indicated that chances of death due to CHD increase with growing age. Hazard of death due to CHD increases by 5% for every additional year of age. 
-Anemia was significant with p-value = 0.02. It means death hazard increases by 67% for a person who is anemic than a non-anemic person 
-creatinine phosphokinase was significant with p-value=0.01.It means as the levels increase the death hazard increases.
-High blood pressure was significant with p-value = 0.02. It means death hazard increases by 66% for a person who has high blood pressure than a person with a low blood pressure
-Serum creatinine was significant with p-value = 0.03. It means death hazard increases by 22% for unit increase in Serum creatinine. 
-Conclusion
+1) Coefficient concerning age indicated that chances of death due to CHD increase with growing age. Hazard of death due to CHD increases by 5% for every additional year of age. 
+2) Anemia was significant with p-value = 0.02. It means death hazard increases by 67% for a person who is anemic than a non-anemic person 
+3) Creatinine phosphokinase was significant with p-value=0.01.It means as the levels increase the death hazard increases.
+4) High blood pressure was significant with p-value = 0.02. It means death hazard increases by 66% for a person who has high blood pressure than a person with a low blood pressure
+5) Serum creatinine was significant with p-value = 0.03. It means death hazard increases by 22% for unit increase in Serum creatinine. 
+
+# Conclusion
 It can be concluded that growing age, having serum creatinine greater than its normal level 1.5, high BP (higher than normal range), higher level of anemia are the key factors contributing towards increased risk of mortality among heart failure patients. No significant differences were found due to smoking status, diabetes, serum sodium levels and gender of patients.
